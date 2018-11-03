@@ -32,16 +32,15 @@ public class GameMain extends JPanel {     // main class for the game
         GameCanvas canvas = new GameCanvas();
         ControlPanel panel = new ControlPanel(canvas);
         canvas.setPreferredSize(new Dimension(CANVAS_WIDTH, CANVAS_HEIGHT));
-        this.add(canvas, BorderLayout.NORTH);   // center of default BorderLayout
-        this.add(panel, BorderLayout.SOUTH);
+        this.add(canvas, BorderLayout.SOUTH);
+        this.add(panel, BorderLayout.NORTH);
         this.setVisible(true);
     }
 
     // ------ All the game related codes here ------
 
     // Initialize all the game objects, run only once.
-    public void gameInit() {
-    }
+
 
     // Start and re-start the game.
     public void gameStart() {
@@ -61,7 +60,9 @@ public class GameMain extends JPanel {     // main class for the game
     // Refresh the display after each step.
     // Use (Graphics g) as argument if you are not using Java 2D.
     public void gameDraw(Graphics2D g2d) {
-
+        HexBoard hex = new HexBoard();
+        g2d.draw(hex);
+        repaint();
     }
 
     // Process a key-pressed event.

@@ -1,7 +1,9 @@
 package com.company;
+import javafx.scene.shape.Shape;
+
 import java.awt.Color;
 
-public class HexBoard {
+public class HexBoard extends Shape {
     private int width, height;
     private Color[][] board;
 
