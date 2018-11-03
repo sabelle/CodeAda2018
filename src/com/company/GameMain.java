@@ -115,7 +115,9 @@ public class GameMain extends JPanel {     // main class for the game
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
+                Board newBoard = new Board();
                 JFrame frame = new JFrame(TITLE);
+                frame.add(newBoard);
                 // Set the content-pane of the JFrame to an instance of main JPanel
                 frame.setContentPane(new GameMain());  // main JPanel as content pane
                 //frame.setJMenuBar(menuBar);          // menu-bar (if defined)

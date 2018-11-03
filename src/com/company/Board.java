@@ -9,15 +9,17 @@ public class Board extends JPanel {
     public static final Color WHITE = new Color(255, 255, 255);
     public static final Color[] COLORS = {BLUE, PURPLE, PINK, WHITE};
 
-    int color = (int)(Math.random() * 5 + 1);
     public Board() {
         repaint();
     }
     public void paint(Graphics g) {
+        int color = (int)(Math.random() * 3 + 1);
         g.setColor(COLORS[color]);
         g.fillRect(100,100,50,50);
+        color = (int)(Math.random() * 3 + 1);
         g.setColor(COLORS[color]);
         g.fillRect(150,100,50,50);
+        color = (int)(Math.random() * 3 + 1);
         g.setColor(COLORS[color]);
         g.fillRect(200,100,50,50);
     }
