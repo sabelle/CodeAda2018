@@ -6,17 +6,16 @@ import java.awt.Color;
 import java.awt.*;
 import java.awt.event.*;
 
-/**
- * Creates a new GUI window that contains HexBoard.
- */
-public class GamePanel extends JPanel {
+public class ControlPanel extends JPanel {
+    private GameMain.GameCanvas canvas;
     private JButton blue;
     private JButton purple;
     private JButton pink;
     private JButton white;
     private JPanel panel;
 
-    public GamePanel() {
+    public ControlPanel(GameMain.GameCanvas canvas) {
+        this.canvas = canvas;
         this.blue = new JButton("blue");
         this.add(this.blue);
         this.purple = new JButton("purple");
@@ -28,8 +27,5 @@ public class GamePanel extends JPanel {
 
         this.panel = new JPanel();
         this.add(this.panel);
-
-        this.panel.setBackground(Color.WHITE);
-
     }
 }

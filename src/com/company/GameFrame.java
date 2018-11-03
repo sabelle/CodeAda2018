@@ -3,11 +3,12 @@ import javax.swing.*;
 import java.awt.*;
 
 public class GameFrame extends JFrame {
+    private GameMain.GameCanvas canvas;
     public GameFrame() {
         this.setTitle("Flood It!");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         //add a canvas
-        GamePanel panel = new GamePanel();
+        ControlPanel panel = new ControlPanel(canvas);
 
         this.add(panel, BorderLayout.SOUTH);
         this.pack();
@@ -15,6 +16,6 @@ public class GameFrame extends JFrame {
     }
 
     public static void main(String[] args) {
-        GameFrame gameFrance = new GameFrame();
+        GameFrame gameFrame = new GameFrame();
     }
 }

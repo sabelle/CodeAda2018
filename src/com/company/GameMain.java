@@ -7,9 +7,9 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class Main extends JPanel {     // main class for the game
+public class GameMain extends JPanel {     // main class for the game
     // Define constants for the game
-    static final String TITLE = ....        // title of the game
+    static final String TITLE = "Flood It!";        // title of the game
     static final int CANVAS_WIDTH = 800;    // width and height of the drawing canvas
     static final int CANVAS_HEIGHT = 600;
     // ......
@@ -20,43 +20,49 @@ public class Main extends JPanel {     // main class for the game
 
     // Handle for the custom drawing panel
     private GameCanvas canvas;
-
     //public static JMenuBar menuBar;    // the menu bar (if needed)
 
+
     // Constructor to initialize the UI components and game objects
-    public Main() {
+    public GameMain() {
         // Initialize the game objects
         gameInit();
 
         // UI components
-        canvas = new GameCanvas();
+        GameCanvas canvas = new GameCanvas();
+        ControlPanel panel = new ControlPanel(canvas);
         canvas.setPreferredSize(new Dimension(CANVAS_WIDTH, CANVAS_HEIGHT));
-        add(canvas);   // center of default BorderLayout
-
-        // Other UI components such as button, score board, if any.
-        // ......
-
-        // Set up menu bar
-
+        this.add(canvas, BorderLayout.NORTH);   // center of default BorderLayout
+        this.add(panel, BorderLayout.SOUTH);
+        this.setVisible(true);
     }
 
     // ------ All the game related codes here ------
 
     // Initialize all the game objects, run only once.
-    public void gameInit() { ...... }
+    public void gameInit() {
+    }
 
     // Start and re-start the game.
-    public void gameStart() { ...... }
+    public void gameStart() {
+
+    }
 
     // Shutdown the game, clean up code that runs only once.
-    public void gameShutdown() { ...... }
+    public void gameShutdown() {
+
+    }
 
     // One step of the game.
-    public void gameUpdate() { ...... }
+    public void gameUpdate() {
+
+    }
 
     // Refresh the display after each step.
     // Use (Graphics g) as argument if you are not using Java 2D.
-    public void gameDraw(Graphics2D g2d) { ...... }
+    public void gameDraw(Graphics2D g2d) {
+
+    }
 
     // Process a key-pressed event.
     public void gameKeyPressed(int keyCode) {
@@ -94,7 +100,7 @@ public class Main extends JPanel {     // main class for the game
         public void paintComponent(Graphics g) {
             Graphics2D g2d = (Graphics2D)g;  // if using Java 2D
             super.paintComponent(g2d);       // paint background
-            setBackground(Color.BLACK);      // may use an image for background
+            setBackground(Color.GRAY);      // may use an image for background
 
             // Draw the game objects
             gameDraw(g2d);
@@ -121,7 +127,7 @@ public class Main extends JPanel {     // main class for the game
             public void run() {
                 JFrame frame = new JFrame(TITLE);
                 // Set the content-pane of the JFrame to an instance of main JPanel
-                frame.setContentPane(new Main());  // main JPanel as content pane
+                frame.setContentPane(new GameMain());  // main JPanel as content pane
                 //frame.setJMenuBar(menuBar);          // menu-bar (if defined)
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frame.pack();
