@@ -1,8 +1,7 @@
 package com.company;
 
-/** Claire Chiu, Sabelle Huang, Stacy Zeng, Sarah Zhou
- * Code Ada 2018
- */
+//Claire Chiu, Sabelle Huang, Stacy Zeng, Sarah Zhou
+//Code Ada 2018
 
 public class Main {
 
