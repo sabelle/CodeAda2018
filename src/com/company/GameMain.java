@@ -55,21 +55,10 @@ public class GameMain extends JPanel {     // main class for the game
     }
 
     // Process a key-pressed event.
-    public void gameKeyPressed(int keyCode) {
-        switch (keyCode) {
-            case KeyEvent.VK_UP:
-                // ......
-                break;
-            case KeyEvent.VK_DOWN:
-                // ......
-                break;
-            case KeyEvent.VK_LEFT:
-                // ......
-                break;
-            case KeyEvent.VK_RIGHT:
-                // ......
-                break;
-        }
+    public void gameKeyPressed(KeyEvent e) {
+        int keyCode = e.getKeyCode();
+        if (keyCode == keyEvent)
+
     }
 
     // Other methods
