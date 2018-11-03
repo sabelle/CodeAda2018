@@ -1,19 +1,15 @@
 package com.company;
 
-//Claire Chiu, Sabelle Huang, Stacy Zeng, Sarah Zhou
-//Code Ada 2018
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class GameMain extends JPanel {     // main class for the game
+public class DiscoMain extends JPanel {     // main class for the game
     // Define constants for the game
     private static final int CANVAS_WIDTH = 700;
     private static final int CANVAS_HEIGHT = 700;
-    private GameCanvas canvas;
 
-    public GameMain() {
+    public DiscoMain() {
         gameInit();
 
         GameCanvas canvas = new GameCanvas();
