@@ -7,17 +7,27 @@ import javax.swing.*;
 public class DiscoMain extends JPanel {
     private static final int CANVAS_WIDTH = 700;
     private static final int CANVAS_HEIGHT = 700;
+    private JButton ada;
+    private JButton honeycomb;
 
     public DiscoMain() {
         GameCanvas canvas = new GameCanvas();
+        ada = new JButton("Code Ada");
+        honeycomb = new JButton("Honeycomb");
         canvas.setPreferredSize(new Dimension(CANVAS_WIDTH, CANVAS_HEIGHT));
         this.add(canvas, BorderLayout.SOUTH);
+        this.add(ada);
+        this.add(honeycomb);
         this.setVisible(true);
     }
 
     public void gameDraw(Graphics2D g2d) {
         Board newBoard = new Board();
-        newBoard.paint(g2d);
+        if (ada.isEnabled()) {
+            newBoard.paint(g2d);
+        } else if (honeycomb.isEnabled()) {
+            newBoard.paintHoney(g2d);
+        }
     }
 
     class GameCanvas extends JPanel implements KeyListener {
