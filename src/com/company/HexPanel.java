@@ -4,9 +4,8 @@ import javax.swing.*;
 
 public class HexPanel extends JPanel {
     private GameMain.GameCanvas canvas;
-    private HexBoard board;
+    private Board[] board;
     public HexPanel(GameMain.GameCanvas canvas) {
         this.canvas = canvas;
-        this.add(board);
     }
 }
