@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f21e2386-47b9-4502-88c7-2ad996c3bee3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CodeAda2018/clickSpaceBar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CodeAda2018/com/company/Board.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CodeAda2018/com/company/ControlPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CodeAda2018/com/company/DiscoMain$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CodeAda2018/com/company/DiscoMain$GameCanvas.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CodeAda2018/com/company/DiscoMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CodeAda2018/com/company/GameFrame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CodeAda2018/com/company/GameMain$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CodeAda2018/com/company/GameMain$GameCanvas.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CodeAda2018/com/company/GameMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CodeAda2018/com/company/Test.class" afterDir="false" />
+    <list default="true" id="8368a591-bfec-4555-8efc-11598511c27e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,113 +18,62 @@
       </map>
     </option>
   </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="hideWarnings" value="true" />
-    <option name="HIDE_WARNINGS" value="true" />
-  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="442281942">
+    <session id="-816668117">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="15" />
-          <entry key="png" value="1" />
+          <entry key="gif" value="3" />
+          <entry key="java" value="4" />
+          <entry key="jpg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="Image" value="1" />
-          <entry key="JAVA" value="13" />
-          <entry key="Scratch" value="2" />
+          <entry key="Image" value="4" />
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3819" />
-          <entry key="txt" value="184" />
+          <entry key="java" value="274" />
+          <entry key="txt" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3760" />
-          <entry key="PLAIN_TEXT" value="184" />
-          <entry key="Scratch" value="59" />
+          <entry key="JAVA" value="274" />
+          <entry key="PLAIN_TEXT" value="81" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/GameFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/GameMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Dog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/DiscoMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Board.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/ControlPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -149,39 +87,21 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>gameinit</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/DrawingPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/DrawingPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/GameCanvas.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/GamePanel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/HexGame.java" />
-        <option value="$PROJECT_DIR$/src/com/company/HexBoard.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Square.java" />
-        <option value="$PROJECT_DIR$/src/com/company/HexPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/ControlPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/GameFrame.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/company/GameMain.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Board.java" />
-        <option value="$PROJECT_DIR$/src/com/company/DiscoMain.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Dog.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="35" />
+    <option name="y" value="23" />
+    <option name="width" value="1371" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -189,14 +109,47 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="CodeAda2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeAda2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeAda2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeAda2018" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeAda2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeAda2018" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeAda2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeAda2018" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeAda2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeAda2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeAda2018" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeAda2018" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeAda2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeAda2018" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeAda2018" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeAda2018" type="b2602c69:ProjectViewProjectNode" />
@@ -209,18 +162,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CodeAda2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeAda2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541284545203" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541284362529" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\szhou\IdeaProjects\CodeAda2018\src\com\company" />
+      <recent name="$PROJECT_DIR$/src/com/company/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,8 +212,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.GameFrame" />
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Dog" />
       <module name="CodeAda2018" />
       <extension name="coverage">
         <pattern>
@@ -275,46 +238,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="CodeAda2018" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Test" />
-      <module name="CodeAda2018" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.GameFrame" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Dog" />
       <item itemvalue="Application.GameMain" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.DiscoMain" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DiscoMain" />
         <item itemvalue="Application.GameMain" />
-        <item itemvalue="Application.GameFrame" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Dog" />
       </list>
     </recent_temporary>
   </component>
@@ -323,151 +256,51 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f21e2386-47b9-4502-88c7-2ad996c3bee3" name="Default Changelist" comment="" />
-      <created>1541260382456</created>
+      <changelist id="8368a591-bfec-4555-8efc-11598511c27e" name="Default Changelist" comment="" />
+      <created>1541280737338</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541260382456</updated>
+      <updated>1541280737338</updated>
     </task>
-    <task id="LOCAL-00001" summary="Created new GamePanel class">
-      <created>1541261477090</created>
+    <task id="LOCAL-00001" summary="added images and created dog class">
+      <created>1541283368574</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1541261477090</updated>
+      <updated>1541283368574</updated>
     </task>
-    <task id="LOCAL-00002" summary="Created new GamePanel class">
-      <created>1541261777476</created>
+    <task id="LOCAL-00002" summary="help did i break everyone's code">
+      <created>1541283643384</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1541261777476</updated>
+      <updated>1541283643384</updated>
     </task>
-    <task id="LOCAL-00003" summary="Created new GameFrame class.">
-      <created>1541263358185</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1541263358185</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Created new GameCanvas class.">
-      <created>1541263528158</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1541263528159</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Deleted GameCanvas.">
-      <created>1541263980719</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1541263980719</updated>
-    </task>
-    <task id="LOCAL-00006" summary="WOrked on idk man">
-      <created>1541267709345</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1541267709345</updated>
-    </task>
-    <task id="LOCAL-00007" summary="idk what i worked on">
-      <created>1541268834569</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1541268834569</updated>
-    </task>
-    <task id="LOCAL-00008" summary="made some changes">
-      <created>1541271648140</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1541271648140</updated>
-    </task>
-    <task id="LOCAL-00009" summary="made some changes">
-      <created>1541272811580</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1541272811580</updated>
-    </task>
-    <task id="LOCAL-00010" summary="made some changes">
-      <created>1541273026006</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1541273026006</updated>
-    </task>
-    <task id="LOCAL-00011" summary="made some changes">
-      <created>1541273141987</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1541273141987</updated>
-    </task>
-    <task id="LOCAL-00012" summary="made some changes">
-      <created>1541273154711</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1541273154711</updated>
-    </task>
-    <task id="LOCAL-00013" summary="made some changes">
-      <created>1541280127243</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1541280127243</updated>
-    </task>
-    <task id="LOCAL-00014" summary="made some changes">
-      <created>1541280553207</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1541280553207</updated>
-    </task>
-    <task id="LOCAL-00015" summary="added honeycomb theme">
-      <created>1541281459355</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1541281459355</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="35" y="23" width="1371" height="780" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15033557" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Version Control" sideWeight="0.4986577" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49932885" visible="true" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32994187" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32994187" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798658" weight="0.32624114" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32994187" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -482,139 +315,45 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created new DrawingPanel class" />
-    <MESSAGE value="Created new GamePanel class" />
-    <MESSAGE value="Created new GameFrame class." />
-    <MESSAGE value="Created new GameCanvas class." />
-    <MESSAGE value="Deleted GameCanvas." />
-    <MESSAGE value="WOrked on idk man" />
-    <MESSAGE value="idk what i worked on" />
-    <MESSAGE value="made some changes" />
-    <MESSAGE value="added honeycomb theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="added honeycomb theme" />
+    <MESSAGE value="added images and created dog class" />
+    <MESSAGE value="help did i break everyone's code" />
+    <option name="LAST_COMMIT_MESSAGE" value="help did i break everyone's code" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Hello.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/doge.gif">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/CodeAda2018/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="20" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/doge.gif">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GameCanvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/company/images/dancIng.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/HexGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/HexBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/HexPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GameFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/company/images/doge.gif">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/GameMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ControlPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/CodeAda2018/clickSpaceBar.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/CodeAda2018/com/company/Test.class">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/DiscoMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
           </folding>
         </state>
       </provider>
