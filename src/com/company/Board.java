@@ -19,6 +19,6 @@ public class Board extends JPanel {
         g.setColor(COLORS[color]);
         g.fillRect(150,100,50,50);
         g.setColor(COLORS[color]);
-        g.fillRect(150,100,50,50);
+        g.fillRect(200,100,50,50);
     }
 }
