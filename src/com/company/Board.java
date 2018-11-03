@@ -22,5 +22,14 @@ public class Board extends JPanel {
         color = (int)(Math.random() * 3 + 1);
         g.setColor(COLORS[color]);
         g.fillRect(200,100,50,50);
+
+
+        for (int x = 100; x < 600; x+=50) {
+            for (int y = 100; y < 600; y+=50) {
+                color = (int)(Math.random() * 3 + 1);
+                g.setColor(COLORS[color]);
+                g.fillRect(x, y, 50, 50);
+            }
+        }
     }
 }
