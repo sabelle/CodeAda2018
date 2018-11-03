@@ -10,21 +10,21 @@ import java.awt.event.*;
  * Creates a new GUI window that contains HexBoard.
  */
 public class GamePanel extends JPanel {
-    private JButton color1;
-    private JButton color2;
-    private JButton color3;
-    private JButton color4;
+    private JButton blue;
+    private JButton purple;
+    private JButton pink;
+    private JButton white;
     private JPanel panel;
 
     public GamePanel() {
-        this.color1 = new JButton("1");
-        this.add(this.color1);
-        this.color2 = new JButton("2");
-        this.add(this.color2);
-        this.color3 = new JButton("3");
-        this.add(this.color3);
-        this.color4 = new JButton("4");
-        this.add(this.color4);
+        this.blue = new JButton("blue");
+        this.add(this.blue);
+        this.purple = new JButton("purple");
+        this.add(this.purple);
+        this.pink = new JButton("pink");
+        this.add(this.pink);
+        this.white = new JButton("white");
+        this.add(this.white);
 
         this.panel = new JPanel();
         this.add(this.panel);
