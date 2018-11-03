@@ -9,8 +9,10 @@ public class GameFrame extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         //add a canvas
         ControlPanel panel = new ControlPanel(canvas);
+        HexPanel hexBoard = new HexPanel(canvas);
 
         this.add(panel, BorderLayout.SOUTH);
+        this.add(hexBoard, BorderLayout.NORTH);
         this.pack();
         this.setVisible(true);
     }

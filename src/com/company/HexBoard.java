@@ -3,7 +3,7 @@ import javafx.scene.shape.Shape;
 
 import java.awt.Color;
 
-public class HexBoard extends Shape {
+public class HexBoard {
     private int width, height;
     private Color[][] board;
 

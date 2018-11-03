@@ -9,26 +9,15 @@ import javax.swing.*;
 
 public class GameMain extends JPanel {     // main class for the game
     // Define constants for the game
-    static final String TITLE = "Flood It!";        // title of the game
-    static final int CANVAS_WIDTH = 800;    // width and height of the drawing canvas
-    static final int CANVAS_HEIGHT = 600;
-    // ......
-
-    // Define instance variables for the game objects
-    // ......
-    // ......
-
-    // Handle for the custom drawing panel
+    private static final String TITLE = "Flood It!";
+    private static final int CANVAS_WIDTH = 800;
+    private static final int CANVAS_HEIGHT = 600;
     private GameCanvas canvas;
-    //public static JMenuBar menuBar;    // the menu bar (if needed)
+    private boolean runBefore = false;
 
-
-    // Constructor to initialize the UI components and game objects
     public GameMain() {
-        // Initialize the game objects
         gameInit();
 
-        // UI components
         GameCanvas canvas = new GameCanvas();
         ControlPanel panel = new ControlPanel(canvas);
         canvas.setPreferredSize(new Dimension(CANVAS_WIDTH, CANVAS_HEIGHT));
@@ -37,10 +26,13 @@ public class GameMain extends JPanel {     // main class for the game
         this.setVisible(true);
     }
 
-    // ------ All the game related codes here ------
-
     // Initialize all the game objects, run only once.
+    public void gameInit() {
+        if (this.runBefore == false) {
 
+        }
+        this.runBefore = true;
+    }
 
     // Start and re-start the game.
     public void gameStart() {
@@ -60,9 +52,6 @@ public class GameMain extends JPanel {     // main class for the game
     // Refresh the display after each step.
     // Use (Graphics g) as argument if you are not using Java 2D.
     public void gameDraw(Graphics2D g2d) {
-        HexBoard hex = new HexBoard();
-        g2d.draw(hex);
-        repaint();
     }
 
     // Process a key-pressed event.
