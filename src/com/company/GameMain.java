@@ -58,7 +58,7 @@ public class GameMain extends JPanel {     // main class for the game
     // Process a key-pressed event.
     public void gameKeyPressed(KeyEvent e) {
         int keyCode = e.getKeyCode();
-        if (keyCode == keyEvent)
+        //if (keyCode == keyEvent)
 
     }
 
@@ -89,7 +89,7 @@ public class GameMain extends JPanel {     // main class for the game
         // KeyEvent handlers
         @Override
         public void keyPressed(KeyEvent e) {
-            gameKeyPressed(e.getKeyCode());
+            //gameKeyPressed(e.getKeyCode());
         }
 
         @Override
