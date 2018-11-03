@@ -12,7 +12,7 @@ public class GameMain extends JPanel {     // main class for the game
     private static final int CANVAS_WIDTH = 700;
     private static final int CANVAS_HEIGHT = 700;
     private GameCanvas canvas;
-    private boolean runBefore = false;
+    private boolean runBefore =    false;
 
     public GameMain() {
         gameInit();
