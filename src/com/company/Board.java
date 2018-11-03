@@ -12,8 +12,8 @@ public class Board extends JPanel {
     public static final Color ORANGE = new Color(233, 157, 63);
     public static final Color PALE_ORANGE = new Color(229, 173, 64);
     public static final Color YELLOW = new Color(238, 196, 62);
-    public static final Color BLACK = new Color(49, 47, 24);
-    public static final Color[] HONEYCOMB = {WHITE, ORANGE, PALE_ORANGE, YELLOW, BLACK};
+    public static final Color PALE_YELLOW = new Color(243, 201, 91);
+    public static final Color[] HONEYCOMB = {WHITE, ORANGE, PALE_ORANGE, YELLOW, PALE_YELLOW};
 
     public Board() {
         repaint();
