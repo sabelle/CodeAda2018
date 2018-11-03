@@ -2,6 +2,7 @@ package com.company;
 
 import java.awt.*;
 import java.awt.event.*;
+import java.security.Key;
 import javax.swing.*;
 
 public class DiscoMain extends JPanel {
@@ -9,25 +10,17 @@ public class DiscoMain extends JPanel {
     private static final int CANVAS_HEIGHT = 700;
     private JButton ada;
     private JButton honeycomb;
+    public void gameDraw(Graphics2D g2d) {
+        Board newBoard = new Board();
+        newBoard.paint(g2d);
+    }
+
 
     public DiscoMain() {
         GameCanvas canvas = new GameCanvas();
-        ada = new JButton("Code Ada");
-        honeycomb = new JButton("Honeycomb");
         canvas.setPreferredSize(new Dimension(CANVAS_WIDTH, CANVAS_HEIGHT));
         this.add(canvas, BorderLayout.SOUTH);
-        this.add(ada);
-        this.add(honeycomb);
         this.setVisible(true);
-    }
-
-    public void gameDraw(Graphics2D g2d) {
-        Board newBoard = new Board();
-        if (ada.isEnabled()) {
-            newBoard.paint(g2d);
-        } else if (honeycomb.isEnabled()) {
-            newBoard.paintHoney(g2d);
-        }
     }
 
     class GameCanvas extends JPanel implements KeyListener {
@@ -48,6 +41,17 @@ public class DiscoMain extends JPanel {
 
         @Override
         public void keyPressed(KeyEvent e) {
+            int keyCode = e.getKeyCode();
+            if (keyCode == KeyEvent.VK_H) {
+                Board.isHoney = true;
+                revalidate();
+                repaint();
+            }
+            if (keyCode == KeyEvent.VK_A) {
+                Board.isHoney = false;
+                revalidate();
+                repaint();
+            }
         }
 
         @Override
@@ -69,9 +73,7 @@ public class DiscoMain extends JPanel {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                Board newBoard = new Board();
                 JFrame frame = new JFrame("Disco in a Box!!");
-                frame.add(newBoard);
                 frame.setVisible(true);
                 frame.setContentPane(new DiscoMain());
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

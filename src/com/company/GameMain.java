@@ -81,6 +81,12 @@ public class GameMain extends JPanel {     // main class for the game
         // KeyEvent handlers
         @Override
         public void keyPressed(KeyEvent e) {
+            int keyCode = e.getKeyCode();
+            if (keyCode == KeyEvent.VK_H) {
+                Board.isHoney = true;
+                revalidate();
+                repaint();
+            }
         }
 
         @Override
@@ -106,7 +112,6 @@ public class GameMain extends JPanel {     // main class for the game
                 JFrame frame = new JFrame("Flood It");
                 frame.add(newBoard);
                 frame.setVisible(true);
-
                 // Set the content-pane of the JFrame to an instance of main JPanel
                 frame.setContentPane(new GameMain());  // main JPanel as content pane
                 //frame.setJMenuBar(menuBar);          // menu-bar (if defined)
