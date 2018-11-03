@@ -9,9 +9,8 @@ import javax.swing.*;
 
 public class GameMain extends JPanel {     // main class for the game
     // Define constants for the game
-    private static final String TITLE = "Flood It!";
-    private static final int CANVAS_WIDTH = 800;
-    private static final int CANVAS_HEIGHT = 600;
+    private static final int CANVAS_WIDTH = 700;
+    private static final int CANVAS_HEIGHT = 700;
     private GameCanvas canvas;
     private boolean runBefore = false;
 
@@ -52,6 +51,8 @@ public class GameMain extends JPanel {     // main class for the game
     // Refresh the display after each step.
     // Use (Graphics g) as argument if you are not using Java 2D.
     public void gameDraw(Graphics2D g2d) {
+        Board newBoard = new Board();
+        newBoard.paint(g2d);
     }
 
     // Process a key-pressed event.
@@ -105,8 +106,10 @@ public class GameMain extends JPanel {     // main class for the game
             @Override
             public void run() {
                 Board newBoard = new Board();
-                JFrame frame = new JFrame(TITLE);
+                JFrame frame = new JFrame("Flood It");
                 frame.add(newBoard);
+                frame.setVisible(true);
+
                 // Set the content-pane of the JFrame to an instance of main JPanel
                 frame.setContentPane(new GameMain());  // main JPanel as content pane
                 //frame.setJMenuBar(menuBar);          // menu-bar (if defined)
@@ -114,6 +117,7 @@ public class GameMain extends JPanel {     // main class for the game
                 frame.pack();
                 frame.setLocationRelativeTo(null); // center the application window
                 frame.setVisible(true);            // show it
+
             }
         });
     }

@@ -7,7 +7,7 @@ public class Test {
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Board newBoard = new Board();
         f.add(newBoard);
-        f.setSize(400,500);
+        f.setSize(700,725);
         f.setVisible(true);
     }
 }
