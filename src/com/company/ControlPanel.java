@@ -1,4 +1,4 @@
-package com.company;
+package company;
 import javax.swing.*;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;

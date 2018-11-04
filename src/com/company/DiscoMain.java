@@ -1,4 +1,4 @@
-package com.company;
+package company;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -76,6 +76,7 @@ public class DiscoMain extends JPanel {
                 JFrame frame = new JFrame("Disco in a Box!!");
                 frame.setVisible(true);
                 frame.setContentPane(new DiscoMain());
+                ImagePanel window = new ImagePanel();
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frame.pack();
                 frame.setLocationRelativeTo(null); // center the application window

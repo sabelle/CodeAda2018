@@ -1,4 +1,4 @@
-package com.company;
+package company;
 
 //Claire Chiu, Sabelle Huang, Stacy Zeng, Sarah Zhou
 //Code Ada 2018

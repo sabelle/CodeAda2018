@@ -1,4 +1,4 @@
-package com.company;
+package company;
 import java.awt.*;
 import javax.swing.*;
 public class Board extends JPanel {
@@ -18,6 +18,7 @@ public class Board extends JPanel {
     public Board() {
         repaint();
     }
+
     public void paint(Graphics g) {
         if (isHoney) {
             for (int x = 100; x < 600; x += 50) {
@@ -27,6 +28,7 @@ public class Board extends JPanel {
                         g.fillRect(x, y, 50, 50);
                     }
                 }
+
             } else {
         for (int x = 100; x < 600; x+=50) {
             for (int y = 50; y < 600; y+=50) {
@@ -34,8 +36,8 @@ public class Board extends JPanel {
                 g.setColor(COLORS[color]);
                 g.fillRect(x, y, 50, 50);
                 }
+
             }
         }
-
     }
 }
